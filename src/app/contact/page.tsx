@@ -2,9 +2,9 @@
 
 import { useState } from "react";
 import { motion } from "framer-motion";
-import { Mail, Phone, MapPin, Send } from "lucide-react";
+import { Phone, MapPin, Send } from "lucide-react";
 import SubPageHeader from "@/components/SubPageHeader";
-import Link from "next/link";
+
 
 export default function Contact() {
   const [isSubmitting, setIsSubmitting] = useState(false);

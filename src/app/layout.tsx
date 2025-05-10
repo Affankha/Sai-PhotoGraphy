@@ -4,7 +4,7 @@ import "./globals.css";
 import Navigation from "@/components/header";
 import ContactSection from "@/components/footer";
 import StickyCurser from "@/components/sticky-curser";
-import WhattsApp from "./whatsapp";
+
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",

@@ -4,7 +4,7 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 import { Camera, Heart, Star, Clock } from "lucide-react";
 import SubPageHeader from "@/components/SubPageHeader";
-import Link from "next/link";
+
 
 export default function AboutUs() {
   return (

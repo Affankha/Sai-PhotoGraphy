@@ -1,14 +1,14 @@
 "use client";
 
 import Link from "next/link";
-import Character from "./character";
+// import Character from "./character";
 import {
   Instagram,
   Facebook,
   Youtube,
-  Twitter,
-  Linkedin,
-  ArrowUpRight,
+  // Twitter,
+  // Linkedin,
+  // ArrowUpRight,
 } from "lucide-react";
 
 export default function Footer() {
