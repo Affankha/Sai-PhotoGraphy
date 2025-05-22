@@ -4,6 +4,7 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 import { Camera, Heart, Star, Clock } from "lucide-react";
 import SubPageHeader from "@/components/SubPageHeader";
+import Testimonial from "@/components/testimonial";
 
 
 export default function AboutUs() {
@@ -113,66 +114,11 @@ export default function AboutUs() {
                 </motion.div>
               ))}
             </div>
+
+            <Testimonial />
           </div>
         </section>
 
-        {/* Team */}
-        {/* <section className="py-20 px-4 md:px-8">
-        <div className="max-w-7xl mx-auto">
-          <motion.h2
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8 }}
-            viewport={{ once: true }}
-            className="text-4xl font-bold text-center mb-16"
-          >
-            Meet Our Team
-          </motion.h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
-            {[
-              {
-                name: "Rajesh Kumar",
-                role: "Lead Photographer",
-                image: "/placeholder.svg?height=600&width=600",
-              },
-              {
-                name: "Priya Sharma",
-                role: "Wedding Specialist",
-                image: "/placeholder.svg?height=600&width=600",
-              },
-              {
-                name: "Amit Patel",
-                role: "Creative Director",
-                image: "/placeholder.svg?height=600&width=600",
-              },
-            ].map((member, index) => (
-              <motion.div
-                key={member.name}
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.5, delay: index * 0.2 }}
-                viewport={{ once: true }}
-                className="group"
-              >
-                <div className="relative h-80 mb-6 rounded-xl overflow-hidden">
-                  <Image
-                    src={member.image}
-                    alt={member.name}
-                    fill
-                    className="object-cover transition-transform group-hover:scale-105"
-                  />
-                </div>
-                <h3 className="text-2xl font-bold text-center mb-2">
-                  {member.name}
-                </h3>
-                <p className="text-gray-600 text-center">{member.role}</p>
-              </motion.div>
-            ))}
-          </div>
-        </div>
-      </section> */}
-
-        {/* Contact CTA */}
        
       </main>
     </>
