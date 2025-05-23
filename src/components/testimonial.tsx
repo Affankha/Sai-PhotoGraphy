@@ -13,7 +13,7 @@ export default function Testimonial() {
   const services = [
     {
       title: "Dhananjay patil",
-      img: "person1.jpg ",
+      img: "person1.jpg",
       desc: "Sai photography's album quality is top-notch. Beautiful layouts and print clarity preserve our memories perfectly! ",
     },
     {
