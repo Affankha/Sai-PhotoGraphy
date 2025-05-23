@@ -9,6 +9,7 @@ import { motion } from "framer-motion";
 import Lenis from "@studio-freight/lenis";
 import { useEffect } from "react";
 import Link from "next/link";
+import Testimonial from "@/components/testimonial";
 
 
 
@@ -93,7 +94,7 @@ export default function Home() {
       </div>
 
       <SlidingImages />
-   
+      <Testimonial />
 
       
     </>
